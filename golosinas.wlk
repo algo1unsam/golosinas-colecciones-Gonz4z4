@@ -142,3 +142,13 @@ object chocolate{
 object naranja{
     method siguiente()= frutilla
 }
+
+object mariano{
+    const property bolsa=[]
+    method comprar(unaGolosina){
+        bolsa.add(unaGolosina)
+    }
+    method desechar(unaGolosina){
+        bolsa.remove(unaGolosina)
+    }
+}
